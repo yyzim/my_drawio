@@ -1,80 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T07:23:43.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="MLgBV5Je0KjzlAcT6jhj" version="22.1.1" type="github">
-  <diagram name="第 1 页" id="fmSRMOf3oGq98TU7JJhl">
-    <mxGraphModel dx="2261" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#aea7a7" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2024-02-26T03:03:16.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.1.5" etag="Xwc5HfcXaqyrY2JZzaiL" type="github">
+  <diagram name="第 1 页" id="Xzg6mjvTaAzqMHnYx80m">
+    <mxGraphModel>
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="oRBVNpsIv-l0nJP6BHm_-1" target="oRBVNpsIv-l0nJP6BHm_-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-4" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rounded=0;" vertex="1" connectable="0" parent="oRBVNpsIv-l0nJP6BHm_-3">
-          <mxGeometry x="-0.125" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="oRBVNpsIv-l0nJP6BHm_-1" target="oRBVNpsIv-l0nJP6BHm_-8">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="100" y="20" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-9" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rounded=0;" vertex="1" connectable="0" parent="oRBVNpsIv-l0nJP6BHm_-6">
-          <mxGeometry x="0.06" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-1" value="服务项目是否发生变更" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="-30" width="160" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="oRBVNpsIv-l0nJP6BHm_-2" target="oRBVNpsIv-l0nJP6BHm_-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-12" value="售中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rounded=0;" vertex="1" connectable="0" parent="oRBVNpsIv-l0nJP6BHm_-11">
-          <mxGeometry x="0.112" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="oRBVNpsIv-l0nJP6BHm_-2" target="oRBVNpsIv-l0nJP6BHm_-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-15" value="售后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rounded=0;" vertex="1" connectable="0" parent="oRBVNpsIv-l0nJP6BHm_-14">
-          <mxGeometry x="0.2348" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-2" value="售中/售后" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="360" y="130" width="160" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="oRBVNpsIv-l0nJP6BHm_-8" target="oRBVNpsIv-l0nJP6BHm_-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-18" value="售后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rounded=0;" vertex="1" connectable="0" parent="oRBVNpsIv-l0nJP6BHm_-17">
-          <mxGeometry x="0.1304" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="oRBVNpsIv-l0nJP6BHm_-8" target="oRBVNpsIv-l0nJP6BHm_-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-21" value="售中" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rounded=0;" vertex="1" connectable="0" parent="oRBVNpsIv-l0nJP6BHm_-20">
-          <mxGeometry x="0.3" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-8" value="售中/售后" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="130" width="160" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-10" value="max(新增项目的截止日期,原截止日期)" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="230" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-13" value="新增项目的截止日期" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-16" value="发起变更后的第二个工作日" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="oRBVNpsIv-l0nJP6BHm_-19" value="不变" style="whiteSpace=wrap;html=1;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-270" y="320" width="120" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
