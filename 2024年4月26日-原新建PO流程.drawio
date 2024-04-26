@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-26T03:54:03.890Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="6xRabvsTq8Ap5sO6A5xo" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-26T05:33:48.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="FmDj0eT5c0Z9eONln_Pq" version="24.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1103" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -132,7 +132,10 @@
         <mxCell id="XB9Kn2awOrxdd4ym_D75-53" value="清除OrgOrderDraft" style="whiteSpace=wrap;html=1;strokeColor=#A6A6A6;strokeWidth=2;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2230" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XB9Kn2awOrxdd4ym_D75-55" value="处理新建PO单" style="whiteSpace=wrap;html=1;strokeColor=#A6A6A6;strokeWidth=2;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="XB9Kn2awOrxdd4ym_D75-61" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XB9Kn2awOrxdd4ym_D75-55" target="XB9Kn2awOrxdd4ym_D75-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XB9Kn2awOrxdd4ym_D75-55" value="新建PO单落库" style="whiteSpace=wrap;html=1;strokeColor=#A6A6A6;strokeWidth=2;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2430" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XB9Kn2awOrxdd4ym_D75-59" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XB9Kn2awOrxdd4ym_D75-57" target="XB9Kn2awOrxdd4ym_D75-53">
@@ -140,6 +143,21 @@
         </mxCell>
         <mxCell id="XB9Kn2awOrxdd4ym_D75-57" value="orgOrderSampleSku落库" style="whiteSpace=wrap;html=1;strokeColor=#A6A6A6;strokeWidth=2;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1990" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XB9Kn2awOrxdd4ym_D75-63" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XB9Kn2awOrxdd4ym_D75-60" target="XB9Kn2awOrxdd4ym_D75-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XB9Kn2awOrxdd4ym_D75-60" value="更新当前orgOrder为母单" style="whiteSpace=wrap;html=1;strokeColor=#A6A6A6;strokeWidth=2;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2630" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XB9Kn2awOrxdd4ym_D75-65" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XB9Kn2awOrxdd4ym_D75-62" target="XB9Kn2awOrxdd4ym_D75-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XB9Kn2awOrxdd4ym_D75-62" value="删除OrgOrder落库" style="whiteSpace=wrap;html=1;strokeColor=#A6A6A6;strokeWidth=2;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2830" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XB9Kn2awOrxdd4ym_D75-64" value="处理供应商物流信息" style="whiteSpace=wrap;html=1;strokeColor=#A6A6A6;strokeWidth=2;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3030" y="310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
